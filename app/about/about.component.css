@@ -54,14 +54,6 @@ ul {
   margin-top: 10px;
 }
 
-div.img {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-  border: 3px solid #73AD21;
-}
-
 
 
 @media screen and (max-width: 640px) {
@@ -76,8 +68,11 @@ div.img {
     width: 100%;
   }
 }
-
-body, html {
-  height: 100%;
+.img {
+  div.absolute { 
+  position: relative;
+  right: 100px;
 }
+  }
+
 

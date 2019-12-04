@@ -8,6 +8,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+import { ReduxQuizComponent } from './redux-quiz/redux-quiz.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ContactComponent } from './contact/contact.component';
     SidenavComponent,
     AboutComponent,
     ResumeComponent,
-    ContactComponent
+    ContactComponent,
+    ReduxQuizComponent
   ],
   imports: [
     BrowserModule,

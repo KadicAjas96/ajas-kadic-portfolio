@@ -8,6 +8,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+import { ReduxComponent } from './redux/redux.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     ResumeComponent,
     ContactComponent,
+    ReduxComponent,
    
   ],
   imports: [

@@ -34,3 +34,11 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+body {
+  overflow: scroll ; 
+  background-image: url("https://images.wallpaperscraft.com/image/palm_trees_twilight_outlines_138991_1280x720.jpg");
+  background-size: cover;
+   background-attachment: fixed;
+
+}

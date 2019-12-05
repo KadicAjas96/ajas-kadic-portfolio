@@ -15,7 +15,7 @@ hr {
 
 .skills {
   display: inline-block;
-  width: 300px;
+  width: 500px;
   height: 600px;
   background-color: rgb(32, 155, 212);
   margin-top: 50px;
@@ -71,7 +71,7 @@ ul {
 .img {
   div.absolute { 
   position: relative;
-  right: 100px;
+  right: 300px;
 }
   }
 

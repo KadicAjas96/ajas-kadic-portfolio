@@ -1,26 +1,19 @@
-
-.contact {
-  width: auto;
-  background-color: rgb(145, 203, 250);
-  height: auto;
-  margin: 0 auto;
-  margin-top: 30px;
-  padding: 10px;
+.contact-container {
+width: 1120px;
+height: 640px;
+display: flex;
+padding: 10px;
+box-sizing: border-box;
+flex-direction: row;
+display: center;
 }
 
-li {
-  margin: 10px;
-  color: white;
-}
-
-ul {
-  
+.inside-contact-container {
+  flex: 1;
+  background: rgb(12, 12, 12, .4);
   padding: 15px;
-  margin-top: 10px;
-}
-
-@media screen and (max-width: 530px;) {
-  .contact {
-    width: 100%;
-  }
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 14px;
 }

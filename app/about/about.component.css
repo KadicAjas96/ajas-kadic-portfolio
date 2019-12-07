@@ -55,7 +55,7 @@ ul {
 
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 400px) {
   .skills, .about {
     display: block;
     margin: 0 auto;

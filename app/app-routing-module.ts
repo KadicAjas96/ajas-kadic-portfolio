@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReduxComponent } from './redux/redux.component';
+import { ClockComponent } from './clock/clock.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
    { path: 'resume', component: ResumeComponent,  data: { depth: 2 } },
    { path: 'contact', component: ContactComponent,  data: { depth: 3 } },
    { path: 'redux', component: ReduxComponent,  data: { depth: 4 } },
+   { path: 'clock', component: ClockComponent,  data: { depth: 5 } },
  
 
 ];

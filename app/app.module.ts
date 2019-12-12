@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReduxComponent } from './redux/redux.component';
+import { ClockComponent } from './clock/clock.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { ReduxComponent } from './redux/redux.component';
     ResumeComponent,
     ContactComponent,
     ReduxComponent,
+    ClockComponent,
    
   ],
   imports: [
